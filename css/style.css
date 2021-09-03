@@ -48,6 +48,7 @@ i {
   background: url('../img/alpine-min.jpg') no-repeat;
   background-position: 0 0;
   background-size: cover;
+  border-bottom: 15px solid yellowgreen;
 }
 
 .hero-image  .caption {
