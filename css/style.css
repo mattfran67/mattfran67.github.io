@@ -1,3 +1,5 @@
+/* GENERAL */
+
 * {
   box-sizing: border-box;
 }
@@ -41,6 +43,8 @@ i {
 .background-cl {
   background-color: #ebebeb;
 }
+
+/* HERO IMAGE */
 
 .hero-image {
   width: 100%;
@@ -160,6 +164,8 @@ main > .card {
   color: #777;
 }
 
+/* AVATAR */
+
 .avatar-image {
   width: 100px;
   height: 100px;
@@ -174,6 +180,8 @@ main > .card {
   text-align: center;
   font-size: 1.5rem;
 }
+
+/* PROGRESS BAR */
 
 .progress-bar {
   border-radius: .5rem;
@@ -206,17 +214,52 @@ main > .card {
   width: 95%;
 }
 
+/* BADGES */
+
+.badges {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.badges span[class*=-badge] {
+  color: white;
+  border-radius: 5px;
+  padding: 2px 5px;
+}
+
+.html-badge {
+  background-color: #bf5622;
+}
+
+.css-badge {
+  background-color: #297bae;
+}
+
+.javascript-badge {
+  background-color: #EFD81D;
+  color: black !important;
+}
+
+.react-badge {
+  background-color: #212121;
+}
+
+.svelte-badge {
+  background-color: #b45e4b;
+}
+
 @keyframes progress {
   0% {
     width: 0;
   }
 }
 
+/* MEDIA QUERIES */
+
 @media (max-width: 767px) {
   main > .card:first-child {
     margin-top: 2rem;
   }
-  
 }
 
 @media (min-width: 768px) {
