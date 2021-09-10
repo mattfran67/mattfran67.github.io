@@ -97,13 +97,22 @@ i {
   opacity: .8;
 }
 
-.codepen-icon {
-  background-image: url("../img/codepen-icon.png");
+span[class*=-icon] {
   background-repeat: no-repeat;
+  background-size: 24px;
   display: inline-block;
   width: 24px;
   height: 24px;
   margin-right: 5px;
+}
+
+.codepen-icon {
+  background-image: url("../img/codepen-icon.png");
+}
+
+.codesandbox-icon {
+  background-image: url("../img/codesandbox-icon.png");
+  border-radius: 5px;
 }
 
 nav {
